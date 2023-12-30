@@ -668,7 +668,9 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 40px;
 }
+
 
 
 .portfolio .portfolio-heading h2
@@ -676,12 +678,72 @@ h3.my-profession
     font-weight: 500;
     color: var(--text-black-900);
 }
+/*mine*/
+/* .portfolio-img img{
+    height: 250px;
+    width: 400px ;
+    padding-right: 50px;
+} */
+/*end*/
+
+.portfolio .portfolio-item
+{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+
+
+.portfolio .portfolio-item-inner
+{
+    border:6px solid var(--bg-black-100);
+    border-radius: 10px ;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img
+{
+    width: 100%;
+    display: block;
+}
+
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 
 
 
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.contact .contact-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
 
 
+.contact .contact-info-item .icon
+{
+   display: inline-block;
+}
 
+.contact .contact-info-item
+{
+    margin-bottom: 30px;
+}
 
 
 
